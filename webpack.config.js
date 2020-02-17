@@ -54,7 +54,7 @@ module.exports = {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        filename: 'index.html',
+        filename: 'Animals_sounds.html',
         template: './src/html/animals.html'
       }),
       new ExtractTextPlugin({
